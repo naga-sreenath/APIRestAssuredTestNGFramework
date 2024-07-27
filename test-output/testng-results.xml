@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-27T19:56:48 IST" name="Default suite" finished-at="2024-07-27T19:56:51 IST" duration-ms="2977">
+    <groups>
+    </groups>
+    <test started-at="2024-07-27T19:56:48 IST" name="Default test" finished-at="2024-07-27T19:56:51 IST" duration-ms="2977">
+      <class name="testscripts.TestAPI">
+        <test-method signature="getUserInPageTwo()[pri:1, instance:testscripts.TestAPI@4b5d6a01]" started-at="2024-07-27T19:56:48 IST" name="getUserInPageTwo" finished-at="2024-07-27T19:56:50 IST" duration-ms="2058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserInPageTwo -->
+        <test-method signature="putSingleUser()[pri:2, instance:testscripts.TestAPI@4b5d6a01]" started-at="2024-07-27T19:56:50 IST" name="putSingleUser" finished-at="2024-07-27T19:56:51 IST" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putSingleUser -->
+      </class> <!-- testscripts.TestAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
