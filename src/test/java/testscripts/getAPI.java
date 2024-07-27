@@ -11,7 +11,7 @@ import jdk.internal.org.jline.utils.Log;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matcher.*;
-public class TestAPI {
+public class getAPI {
 	
 	@Test (priority=1)
 	public void getUserInPageTwo()
@@ -40,30 +40,7 @@ public class TestAPI {
 		Assert.assertEquals(email, "janet.weaver@reqres.in");
 
 		
-	}
 	
-	@Test (priority=2)
-	public void putSingleUser() {
-		
-	Response putresponse = given().when().put("https://jsonplaceholder.typicode.com/posts/1");
-	
-	int putstatus = putresponse.statusCode();
-	
-	Assert.assertEquals(putstatus, 200);
-	
-	String actualputresponse = putresponse.asString();
-	
-	System.out.println("response for put end point is->"+actualputresponse);
-	
-	JsonPath js= new JsonPath(actualputresponse);
-	
-	int id2 =js.get("id");
-	
-	System.out.println("id value is->"+id2);
-	
-	Assert.assertEquals(id2, 1);
-	
-			
 
 }
 }
